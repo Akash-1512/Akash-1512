@@ -126,8 +126,20 @@ motto      = "Production or nothing. Evaluation is not optional."
 
 <div align="center">
 
-<img height="175em" src="./profile/stats.svg" alt="GitHub stats"/>
-<img height="175em" src="./profile/top-langs.svg" alt="Top languages"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=000000&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&cache_seconds=1800"/>
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=000000&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&cache_seconds=1800"/>
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=000000&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&cache_seconds=1800" alt="GitHub stats"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&border_radius=12&bg_color=000000&title_color=22d3ee&text_color=a78bfa&langs_count=6&cache_seconds=1800"/>
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&border_radius=12&bg_color=000000&title_color=22d3ee&text_color=a78bfa&langs_count=6&cache_seconds=1800"/>
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&border_radius=12&bg_color=000000&title_color=22d3ee&text_color=a78bfa&langs_count=6&cache_seconds=1800" alt="Top languages"/>
+</picture>
 
 <br/><br/>
 
