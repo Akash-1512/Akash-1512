@@ -1,77 +1,14 @@
-name: 🌌 Generate Profile Assets
+# This workflow is DISABLED — delete this file from your repo.
+# The README uses github-readme-stats.vercel.app directly.
+# No workflow needed for stats cards.
+
+name: DISABLED
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:            # run manually anytime
-  push:
-    branches: [main]
+  workflow_dispatch:  # Only runs if manually triggered
 
 jobs:
-  generate:
+  noop:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      contents: write
-
     steps:
-      # ── 1. SNAKE ANIMATION ──────────────────────────────────────────
-      - name: 🐍 Generate snake animation
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # ── 2. STATS CARD ───────────────────────────────────────────────
-      - name: 📊 Generate stats card
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          card: stats
-          options: >-
-            username=${{ github.repository_owner }}
-            &show_icons=true
-            &include_all_commits=true
-            &count_private=true
-            &hide_border=true
-            &border_radius=12
-            &bg_color=000000
-            &title_color=e879f9
-            &icon_color=22d3ee
-            &text_color=a78bfa
-            &ring_color=9333ea
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-
-      # ── 3. TOP LANGUAGES ────────────────────────────────────────────
-      - name: 💻 Generate top languages card
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          card: top-langs
-          options: >-
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &hide_border=true
-            &border_radius=12
-            &bg_color=000000
-            &title_color=22d3ee
-            &text_color=a78bfa
-            &langs_count=6
-            &hide=jupyter+notebook,HTML
-          path: dist/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-
-      # ── 4. PUSH TO OUTPUT BRANCH ────────────────────────────────────
-      - name: 🚀 Push assets to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "chore: update profile assets [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo "Delete this file from your repo."
