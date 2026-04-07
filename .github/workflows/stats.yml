@@ -1,9 +1,15 @@
+# ─────────────────────────────────────────────────────────────────
+# OPTIONAL — README already uses Vercel API directly (zero setup).
+# Delete this file if you don't want the workflow.
+# Only needed for self-hosted static SVGs (no rate limits).
+# ─────────────────────────────────────────────────────────────────
+
 name: 📊 Update Stats Cards
 
 on:
   schedule:
-    - cron: "0 6 * * *"      # Daily 6 AM UTC
-  workflow_dispatch:            # Manual trigger
+    - cron: "0 6 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -17,45 +23,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Stats Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: >-
-            username=${{ github.repository_owner }}
-            &show_icons=true
-            &hide_border=true
-            &border_radius=12
-            &bg_color=000000
-            &title_color=e879f9
-            &icon_color=22d3ee
-            &text_color=a78bfa
-            &ring_color=9333ea
-            &include_all_commits=true
-            &count_private=true
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate stats SVGs via API
+        run: |
+          mkdir -p profile
 
-      - name: Generate Top Languages Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: >-
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &hide_border=true
-            &border_radius=12
-            &bg_color=000000
-            &title_color=22d3ee
-            &text_color=a78bfa
-            &langs_count=6
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          BASE="https://github-readme-stats.vercel.app/api"
+          DARK="bg_color=000000&hide_border=true&border_radius=12"
+          USER="username=Akash-1512"
 
-      - name: Commit updated cards
+          # Stats card
+          curl -sL "${BASE}?${USER}&${DARK}&show_icons=true&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&include_all_commits=true" \
+            -o profile/stats.svg && echo "stats.svg OK" || echo "stats.svg skipped"
+
+          # Top langs card
+          curl -sL "${BASE}/top-langs/?${USER}&${DARK}&layout=compact&title_color=22d3ee&text_color=a78bfa&langs_count=6" \
+            -o profile/top-langs.svg && echo "top-langs.svg OK" || echo "top-langs.svg skipped"
+
+          # Verify SVG not an error page
+          head -1 profile/stats.svg | grep -q '<svg' || echo "Warning: stats.svg may be an error - Vercel fallback active"
+          head -1 profile/top-langs.svg | grep -q '<svg' || echo "Warning: top-langs.svg may be an error - Vercel fallback active"
+
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add profile/
-          git diff --staged --quiet || git commit -m "chore: update stats cards [skip ci]"
-          git push
+          git diff --staged --quiet || git commit -m "chore: update stats SVGs [skip ci]"
+          git push || true
