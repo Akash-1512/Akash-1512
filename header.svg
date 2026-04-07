@@ -226,3 +226,5 @@
 <circle cx="34" cy="310" r="2.2" fill="#fbbf24"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.0s" begin="0.8s" repeatCount="indefinite"/></circle>
 <circle cx="866" cy="310" r="2.2" fill="#10b981"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.0s" begin="2.2s" repeatCount="indefinite"/></circle>
 </svg>
+
+
