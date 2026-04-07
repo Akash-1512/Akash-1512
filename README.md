@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-akash1512-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000"/>
 </a>&nbsp;
 <a href="https://ai-akash.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-ai-akash.netlify.app-9333ea?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000"/>
+  <img src="https://img.shields.io/badge/Portfolio-ai--akash.netlify.app-9333ea?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000"/>
 </a>&nbsp;
 <a href="mailto:ag.chaudhari.1512@gmail.com">
   <img src="https://img.shields.io/badge/Email-ag.chaudhari.1512-e91e8c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000"/>
@@ -48,6 +48,9 @@
 </div>
 
 <img src="./divider.svg" width="100%" alt=""/>
+
+<!-- ⚡ ELECTRICITY EFFECT -->
+<img src="./electricity.svg" width="100%" alt="electricity"/>
 
 ## 🌌 About
 
@@ -122,38 +125,22 @@ motto      = "Production or nothing. Evaluation is not optional."
 
 <img src="./divider.svg" width="100%" alt=""/>
 
+<!-- 🌌 BLACK HOLE — COLLAPSING STARS -->
+<div align="center">
+<img src="./blackhole.svg" width="75%" alt="Black hole - stars collapsing"/>
+</div>
+
 ## 🌠 Metrics
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=000000&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&cache_seconds=1800"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=000000&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&cache_seconds=1800"/>
-  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=000000&title_color=e879f9&icon_color=22d3ee&text_color=a78bfa&ring_color=9333ea&cache_seconds=1800" alt="GitHub stats"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&border_radius=12&bg_color=000000&title_color=22d3ee&text_color=a78bfa&langs_count=6&cache_seconds=1800"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&border_radius=12&bg_color=000000&title_color=22d3ee&text_color=a78bfa&langs_count=6&cache_seconds=1800"/>
-  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&border_radius=12&bg_color=000000&title_color=22d3ee&text_color=a78bfa&langs_count=6&cache_seconds=1800" alt="Top languages"/>
-</picture>
+<!-- Streak — demolab.com is reliable and actively maintained -->
+<img src="https://streak-stats.demolab.com/?user=Akash-1512&hide_border=true&border_radius=12&background=000000&stroke=1a0030&ring=e91e8c&fire=fbbf24&currStreakLabel=22d3ee&sideLabels=a78bfa&dates=4b5563&currStreakNum=ffffff&sideNums=e879f9" width="60%" alt="Streak"/>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://streak-stats.demolab.com/?user=Akash-1512&hide_border=true&border_radius=12&background=000000&stroke=1a0030&ring=e91e8c&fire=fbbf24&currStreakLabel=22d3ee&sideLabels=a78bfa&dates=4b5563&currStreakNum=ffffff&sideNums=e879f9"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://streak-stats.demolab.com/?user=Akash-1512&hide_border=true&border_radius=12&background=000000&stroke=1a0030&ring=e91e8c&fire=fbbf24&currStreakLabel=22d3ee&sideLabels=a78bfa&dates=4b5563&currStreakNum=ffffff&sideNums=e879f9"/>
-  <img src="https://streak-stats.demolab.com/?user=Akash-1512&hide_border=true&border_radius=12&background=000000&stroke=1a0030&ring=e91e8c&fire=fbbf24&currStreakLabel=22d3ee&sideLabels=a78bfa&dates=4b5563&currStreakNum=ffffff&sideNums=e879f9" width="54%" alt="Streak"/>
-</picture>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Akash-1512&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=4" width="80%" alt="Trophies"/>
+<!-- Contribution heatmap — ghchart, no auth, always works -->
+<img src="https://ghchart.rshah.org/9333ea/Akash-1512" width="100%" alt="Contribution chart"/>
 
 </div>
 
