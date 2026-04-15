@@ -15,10 +15,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-    srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=Procurement+GPT+-+12-agent+LangGraph+%40+Deloitte;93-96%25+accuracy+on+117+adversarial+test+prompts;RAG+%7C+MCP+%7C+GraphRAG+%7C+RAGAS+%7C+DeepEval+%7C+MLflow;HITL+interrupt()+%7C+A2A+Protocol+%7C+PydanticAI;Building+AI+systems+that+actually+ship."/>
+    srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=Agentic+AI+Engineer+%7C+LangGraph+%7C+LLMOps+%7C+RAG;4%2B+years+production+GenAI+%40+Deloitte+%26+Govt.+of+Maharashtra;Multi-agent+systems+%7C+MCP+Protocol+%7C+HITL+workflows;RAGAS+%7C+DeepEval+%7C+MLflow+%7C+LangSmith+%7C+Azure+OpenAI;Open+to+senior+remote+roles+globally."/>
   <source media="(prefers-color-scheme: light)"
-    srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=900&color=7C3AED&center=true&vCenter=true&width=680&lines=Procurement+GPT+-+12-agent+LangGraph+%40+Deloitte;93-96%25+accuracy+on+117+adversarial+test+prompts;RAG+%7C+MCP+%7C+GraphRAG+%7C+RAGAS+%7C+DeepEval+%7C+MLflow;HITL+interrupt()+%7C+A2A+Protocol+%7C+PydanticAI;Building+AI+systems+that+actually+ship."/>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=Procurement+GPT+-+12-agent+LangGraph+%40+Deloitte;93-96%25+accuracy+on+117+adversarial+test+prompts;RAG+%7C+MCP+%7C+GraphRAG+%7C+RAGAS+%7C+DeepEval+%7C+MLflow;HITL+interrupt()+%7C+A2A+Protocol+%7C+PydanticAI;Building+AI+systems+that+actually+ship." alt="Typing animation"/>
+    srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=900&color=7C3AED&center=true&vCenter=true&width=680&lines=Agentic+AI+Engineer+%7C+LangGraph+%7C+LLMOps+%7C+RAG;4%2B+years+production+GenAI+%40+Deloitte+%26+Govt.+of+Maharashtra;Multi-agent+systems+%7C+MCP+Protocol+%7C+HITL+workflows;RAGAS+%7C+DeepEval+%7C+MLflow+%7C+LangSmith+%7C+Azure+OpenAI;Open+to+senior+remote+roles+globally."/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=Agentic+AI+Engineer+%7C+LangGraph+%7C+LLMOps+%7C+RAG;4%2B+years+production+GenAI+%40+Deloitte+%26+Govt.+of+Maharashtra;Multi-agent+systems+%7C+MCP+Protocol+%7C+HITL+workflows;RAGAS+%7C+DeepEval+%7C+MLflow+%7C+LangSmith+%7C+Azure+OpenAI;Open+to+senior+remote+roles+globally." alt="Typing animation"/>
 </picture>
 
 <br/><br/>
@@ -49,23 +49,23 @@
 
 <img src="./divider.svg" width="100%" alt=""/>
 
-<!-- ⚡ ELECTRICITY EFFECT -->
-<img src="./electricity.svg" width="100%" alt="electricity"/>
-
 ## 🌌 About
 
 ```python
 role       = "Agentic AI Engineer  |  Asst. Manager, Data Scientist GenAI"
-company    = "Deloitte  (Aug 2025 - Present)"
+company    = "Deloitte South Asia LLP  (Aug 2025 - Present)"
 prev       = "Govt. of Maharashtra  |  PC GenAI Analyst  |  Dec 2021 - Jun 2025"
-education  = "MS AI & Cybersecurity  |  IIT Patna  [pursuing alongside full-time]"
+education  = "MS AI & Cybersecurity  |  IIT Patna  (pursuing)"
 
-flagship   = "Procurement GPT - 12-agent LangGraph  |  HITL interrupt()"
-accuracy   = "93-96% across 117 adversarial production test prompts"
-load       = "100 concurrent users  |  Kubernetes AKS  |  p99 documented"
-obs        = "LangSmith + MLflow - every LLM call is auditable"
+focus      = [
+    "Multi-agent orchestration with LangGraph",
+    "RAG pipeline development and evaluation",
+    "LLMOps: observability, evaluation, CI/CD",
+    "MCP protocol and tool-calling systems",
+]
 
-motto      = "Production or nothing. Evaluation is not optional."
+currently  = "Building production agentic AI systems at enterprise scale"
+open_to    = "Senior remote roles — AI Engineer / LLMOps / ML Engineer"
 ```
 
 <img src="./divider.svg" width="100%" alt=""/>
@@ -125,21 +125,14 @@ motto      = "Production or nothing. Evaluation is not optional."
 
 <img src="./divider.svg" width="100%" alt=""/>
 
-<!-- 🌌 BLACK HOLE — COLLAPSING STARS -->
-<div align="center">
-<img src="./blackhole.svg" width="75%" alt="Black hole - stars collapsing"/>
-</div>
-
 ## 🌠 Metrics
 
 <div align="center">
 
-<!-- Streak — demolab.com is reliable and actively maintained -->
 <img src="https://streak-stats.demolab.com/?user=Akash-1512&hide_border=true&border_radius=12&background=000000&stroke=1a0030&ring=e91e8c&fire=fbbf24&currStreakLabel=22d3ee&sideLabels=a78bfa&dates=4b5563&currStreakNum=ffffff&sideNums=e879f9" width="60%" alt="Streak"/>
 
 <br/><br/>
 
-<!-- Contribution heatmap — ghchart, no auth, always works -->
 <img src="https://ghchart.rshah.org/9333ea/Akash-1512" width="100%" alt="Contribution chart"/>
 
 </div>
@@ -165,10 +158,10 @@ motto      = "Production or nothing. Evaluation is not optional."
 ## 🌍 Open To
 
 ```
-Role     Senior Agentic AI / LLM / LLMOps Engineer
-Mode     Fully Remote - Global
+Role     Senior AI Engineer  |  LLMOps Engineer  |  ML Engineer
+Mode     Fully Remote — Global
 Markets  USA  |  UK  |  EU  |  UAE  |  Canada  |  Australia
-Speed    Response in under 24 hours
+Speed    Available for calls within 24 hours
 ```
 
 <img src="./divider.svg" width="100%" alt=""/>
@@ -180,7 +173,7 @@ Speed    Response in under 24 hours
     srcset="https://raw.githubusercontent.com/Akash-1512/Akash-1512/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/Akash-1512/Akash-1512/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/Akash-1512/Akash-1512/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Asteroid trail"/>
+  <img src="https://raw.githubusercontent.com/Akash-1512/Akash-1512/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake"/>
 </picture>
 
 </div>
