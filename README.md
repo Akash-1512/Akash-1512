@@ -125,6 +125,7 @@ open_to    = "Senior remote roles — AI Engineer / LLMOps / ML Engineer"
 
 <img src="./divider.svg" width="100%" alt=""/>
 
+<!-- METRICS — re-enable once streak and contribution graph are healthy
 ## 🌠 Metrics
 
 <div align="center">
@@ -138,7 +139,9 @@ open_to    = "Senior remote roles — AI Engineer / LLMOps / ML Engineer"
 </div>
 
 <img src="./divider.svg" width="100%" alt=""/>
+-->
 
+<!-- ACTIVITY GRAPH — re-enable once contribution history is populated
 ## 💫 Activity
 
 <div align="center">
@@ -154,6 +157,7 @@ open_to    = "Senior remote roles — AI Engineer / LLMOps / ML Engineer"
 </div>
 
 <img src="./divider.svg" width="100%" alt=""/>
+-->
 
 ## 🌍 Open To
 
