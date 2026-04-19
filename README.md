@@ -125,6 +125,61 @@ open_to    = "Senior remote roles — AI Engineer / LLMOps / ML Engineer"
 
 <img src="./divider.svg" width="100%" alt=""/>
 
+## 🧭 Experience
+
+<div align="center">
+
+![](https://img.shields.io/badge/Experience-4%2B_Years_Production_GenAI-e91e8c?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/Current-Deloitte_South_Asia_LLP-22d3ee?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/Previous-Govt._of_Maharashtra_(3.5_yrs)-e879f9?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/Education-MS_AI_%26_Cybersecurity_IIT_Patna-fbbf24?style=for-the-badge&labelColor=000000)
+
+</div>
+
+<img src="./divider.svg" width="100%" alt=""/>
+
+## 🏅 Agentic AI Stack Depth
+
+<div align="center">
+
+![](https://img.shields.io/badge/✦_Multi--Agent_Orchestration-LangGraph_Supervisor_Patterns-e91e8c?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/✦_MCP_Protocol-Production_Server_Builder-c026d3?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/✦_A2A_Protocol-Agent--to--Agent_Interop-9333ea?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/✦_HITL_Workflows-interrupt()_Patterns-7c3aed?style=flat-square&labelColor=000000)
+
+<br/>
+
+![](https://img.shields.io/badge/✦_RAG_Evaluation-RAGAS_%7C_DeepEval_%7C_LLM--as--Judge-10b981?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/✦_LLMOps-LangSmith_%7C_MLflow_%7C_Langfuse-fbbf24?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/✦_GraphRAG-Knowledge_Graph_Retrieval-34d399?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/✦_Azure_OpenAI-Enterprise_Production-22d3ee?style=flat-square&labelColor=000000)
+
+<br/>
+
+![](https://img.shields.io/badge/Frameworks-LangGraph_%7C_LangChain_%7C_PydanticAI_%7C_AutoGen-a855f7?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/Evaluation-RAGAS_%7C_DeepEval_%7C_Pytest_%7C_Locust-f59e0b?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/Infra-Docker_%7C_K8s_%7C_FastAPI_%7C_GitHub_Actions-3b82f6?style=flat-square&labelColor=000000)
+
+</div>
+
+<img src="./divider.svg" width="100%" alt=""/>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Akash-1512&show_icons=true&count_private=true&hide=stars,issues&hide_border=true&bg_color=000000&title_color=e91e8c&icon_color=9333ea&text_color=e879f9&ring_color=c026d3&include_all_commits=true" width="48%" alt="GitHub Stats"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-1512&layout=compact&hide_border=true&bg_color=000000&title_color=e91e8c&text_color=e879f9&langs_count=6&hide=jupyter%20notebook,shell" width="38%" alt="Top Languages"/>
+
+</div>
+
+<img src="./divider.svg" width="100%" alt=""/>
+
+<!-- STREAK + HEATMAP — re-enable when:
+     ✓ Current streak >= 14 days
+     ✓ Contribution graph has 3+ weeks of green
+     ✓ Total contributions look healthy
 <!-- METRICS — re-enable once streak and contribution graph are healthy
 ## 🌠 Metrics
 
